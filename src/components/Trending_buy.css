@@ -1,0 +1,146 @@
+.trending_buy {
+    height: auto;
+    width: 70%;
+    /* background-color: aqua; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.trending_buy1 {
+    background-color: rgb(234, 233, 233);
+    width: 55%;
+    object-fit: contain;
+}
+
+.trending_buy1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.trending_buy2 {
+
+    /* background-color: pink; */
+    width: 40%;
+}
+
+.trending_buy2 h1 {
+    color: #153a5b;
+}
+
+.trending_buy2 h2 {
+    color: #153a5b;
+    padding-top: 14px;
+}
+
+.trending_buy2 h4 {
+    color: #153a5b;
+    padding-top: 50px;
+}
+
+.trending_buy2 span {
+    display: flex;
+    gap: 5px;
+}
+
+/* size button */
+.button {
+    float: left;
+    margin: 0 5px 0 0;
+    width: 200px;
+    height: 45px;
+    position: relative;
+    border: 2px solid #153a5b;
+}
+
+.button label,
+.button input {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.button input[type="radio"] {
+    opacity: 0.011;
+    z-index: 100;
+}
+
+.button input[type="radio"]:checked+label {
+    background: white;
+    /* border: 2px solid #153a5b; */
+    width: 100%;
+}
+
+.button label {
+    cursor: pointer;
+    /* z-index: 90; */
+    line-height: 1.8em;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.button2 {
+    float: left;
+    margin: 0 5px 0 0;
+    width: 200px;
+    height: 45px;
+    position: relative;
+    /* border: 2px solid #153a5b; */
+}
+
+.button2 label,
+.button2 input {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.button2 input[type="radio"] {
+    opacity: 0.011;
+    z-index: 100;
+}
+
+.button2 input[type="radio"]:checked+label {
+    background: white;
+    /* border: 2px solid #153a5b; */
+    width: 100%;
+}
+
+.button2 label {
+    cursor: pointer;
+    /* z-index: 90; */
+    line-height: 1.8em;
+    text-align: center;
+    padding-top: 8px;
+}
+
+/* size button end */
+
+.add-btn {
+    width: 91%;
+    font-size: 16px;
+    height: 45px;
+    background: white;
+    border: 1px solid lightgray;
+    margin-top: 30px;
+    background-color: #153a5b;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.add-btn:hover {
+    background-color: white;
+    color: #153a5b;
+    border: 1px solid #153a5b;
+    transition: all 0.4s ease-in-out;
+}

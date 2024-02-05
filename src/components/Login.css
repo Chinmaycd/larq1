@@ -1,0 +1,87 @@
+.login {
+    height: auto;
+    width: 100%;
+
+}
+
+
+.login_top {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #153a5b;
+    font-size: 20px;
+}
+
+
+.login_top h1 {
+    padding-top: 80px;
+}
+
+
+.login_bottom {
+    height: auto;
+    width: 100vh;
+    margin: auto;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.login_bottom_left {
+    width: 50vh;
+    height: 400px;
+    font-size: 16px;
+    color: rgb(92, 91, 91);
+}
+
+
+
+.login_bottom_left input {
+    height: 40px;
+    width: 90%;
+    border: 1px solid lightgray;
+    margin-top: 5px;
+}
+
+
+.login_bottom_left .signin_btn {
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: #153a5b;
+    color: white;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.login_bottom_right {
+    background-color: rgb(234, 233, 233);
+    width: 50vh;
+    height: 260px;
+}
+
+
+.login_bottom_right_txt {
+    width: 40vh;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.login_bottom_right_txt ul {
+    padding: 5px 0px 0px 30px;
+}
+
+.signup_btn {
+    height: 40px;
+    width: 60%;
+    margin-top: 10px;
+    background-color: #153a5b;
+    color: white;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

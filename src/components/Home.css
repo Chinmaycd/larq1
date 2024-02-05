@@ -1,0 +1,160 @@
+.home {
+    height: 100vh;
+    background-image: url('https://res.cloudinary.com/larq/image/fetch/q_auto,f_auto/https://res.cloudinary.com/larq/images/f_auto,q_auto/v1703675638/NewYear_Website_Hero_2400x1200/NewYear_Website_Hero_2400x1200.jpg?_i=AA');
+
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-origin: 50%; */
+    position: relative;
+}
+
+.home::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(21, 58, 91, 0) 0%, rgba(21, 58, 91, 0) 33.33%, rgba(21, 58, 91, 0.1) 66.67%, rgba(21, 58, 91, 0.8) 100%);
+}
+
+.home_txt {
+    position: absolute;
+    height: 40%;
+    width: 50%;
+    /* background-color: aqua; */
+    top: 500px;
+    left: 80px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 2;
+
+}
+
+.home_txt h1 {
+    font-size: 60px;
+}
+
+.home_txt p {
+    font-size: 25px;
+}
+
+.home_txt button {
+    height: 40px;
+    background-color: white;
+    color: #153a5b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    width: 16%;
+    border-radius: 22px;
+    border: 0.5px solid lightgray;
+}
+
+.home_img2 {
+    background-image: url('https://res.cloudinary.com/larq/image/upload/q_auto,f_auto/w_800,h_800/c_crop,w_600,h_600/v1701177839/SKU/SPA/v3/SET-PITCHER-FILTERED.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    padding: 100px;
+    position: absolute;
+    right: 40px;
+    top: 550px;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+/* .brilliant {
+    height: 30%;
+    width: 100%;
+    background-color: aqua;
+    position: absolute;
+    top: 950px;
+} */
+
+/* media query */
+@media screen and (max-width:1500px) {
+    .home_img {
+        background-size: contain;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+    .home {
+        height: 90vh;
+        background-image: url('https://res.cloudinary.com/larq/image/fetch/q_auto,f_auto/https://res.cloudinary.com/larq/images/f_auto,q_auto/v1703675638/NewYear_Website_Hero_2400x1200/NewYear_Website_Hero_2400x1200.jpg?_i=AA');
+
+        width: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        /* background-origin: 50%; */
+        position: relative;
+    }
+
+    .home_txt button {
+        width: 28%;
+    }
+
+    .home_txt h1 {
+        font-size: 40px;
+    }
+
+    .home_txt p {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:791px) {
+    .home {
+        height: 100vh;
+        background-image: url('https://res.cloudinary.com/larq/image/fetch/q_auto,f_auto/https://res.cloudinary.com/larq/images/f_auto,q_auto/v1703675642/NewYear_Website_Hero_1200x2400/NewYear_Website_Hero_1200x2400.jpg?_i=AA');
+
+        width: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        /* background-origin: 50%; */
+        position: relative;
+    }
+
+    .home_txt {
+        width: 70%;
+        left: 40px;
+    }
+
+    .home_txt button {
+        width: 28%;
+    }
+
+    .home_txt h1 {
+        font-size: 40px;
+    }
+
+    .home_txt p {
+        font-size: 20px;
+    }
+
+    .home_img2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .home_txt button {
+        width: 28%;
+        font-size: 12px;
+    }
+
+    .home_txt h1 {
+        font-size: 30px;
+    }
+
+    .home_txt p {
+        font-size: 18px;
+    }
+
+    .home_img2 {
+        display: none;
+    }
+}
