@@ -12,7 +12,7 @@
 .back {
     /* z-index: 2; */
     position: relative;
-    top: 870px;
+    top: 730px;
     left: -100px;
     height: 40px;
     width: 100px;
@@ -27,7 +27,7 @@
 .back2 {
     /* z-index: 2; */
     position: relative;
-    top: 870px;
+    top: 730px;
     left: 100px;
     height: 40px;
     width: 100px;
@@ -255,6 +255,11 @@
 
 @media screen and (max-width:800px) {
     .drink_left {
+        bottom: 120px;
+        width: 80%;
+    }
+
+    .drink_left2 {
         bottom: 120px;
         width: 80%;
     }
